@@ -41,4 +41,42 @@ A "subcategory" column that contains only the subcategory titles
 
 The following image shows this subcategory DataFrame:
 
+![Snip20240119_2](https://github.com/Tylerwilliams3644/Crowdfunding_ETL/assets/62526904/bfdfa887-eb22-4e8c-9ff6-35dd898b8566)
+
+Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
+
+Create the Campaign DataFrame
+Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
+
+The "cf_id" column
+
+The "contact_id" column
+
+The "company_name" column
+
+The "blurb" column, renamed to "description"
+
+The "goal" column, converted to the float data type
+
+The "pledged" column, converted to the float data type
+
+The "outcome" column
+
+The "backers_count" column
+
+The "country" column
+
+The "currency" column
+
+The "launched_at" column, renamed to "launch_date" and with the UTC times converted to the datetime format
+
+The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
+
+The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
+
+The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
+
+The following image shows this campaign DataFrame:
+
+
 
